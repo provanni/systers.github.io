@@ -14,7 +14,6 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { FooterComponent } from './footer/footer.component';
 import { ContactComponent } from './contact/contact.component';
 import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
-import { NewcomersComponent } from './newcomers/newcomers.component';
 import { ContributorsComponent } from './contributors/contributors.component';
 import { pipe } from './contributors/pipe';
 import { GetFirstWord } from './contributors/first.pipe';
@@ -27,7 +26,6 @@ import { GetFirstWord } from './contributors/first.pipe';
     NavbarComponent,
     FooterComponent,
     ContactComponent,
-    NewcomersComponent
     ContributorsComponent,
     pipe,
     GetFirstWord
