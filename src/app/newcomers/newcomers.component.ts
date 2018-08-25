@@ -12,8 +12,8 @@ import { Resources } from './resources-data';
 
 export class NewcomersComponent implements OnInit {
 
-  method_details = nonCodeMethodsData;
-  workflow_stages = Workflow;
+  methodDetails = nonCodeMethodsData;
+  workflowStages = Workflow;
   resources = Resources;
   currentJustify = 'justified';
   isCollapsed = true;
